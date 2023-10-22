@@ -2,7 +2,7 @@ import { createRoot } from "react-dom/client";
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import "./index.css";
 import "./App.css";
-import Home from "./pages/home.tsx";
+import Home from "./pages/Home.tsx";
 import Details from "./pages/Details.tsx";
 import Form from "./pages/Form.tsx";
 
