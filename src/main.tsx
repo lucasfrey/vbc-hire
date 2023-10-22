@@ -11,6 +11,7 @@ const root = createRoot(document.getElementById("root")!);
 root.render(
   <BrowserRouter>
     <header>
+      <img src="/V.png" height="100" alt="logo" />
       <h1 className="text-3xl font-bold">VBC Hire</h1>
       <Link to={"/"}>Home</Link>
       <br />
