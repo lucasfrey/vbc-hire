@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./index.css";
 import Home from "./pages/Home.tsx";
 import Details from "./pages/Details.tsx";
-import Form from "./pages/Form.tsx";
+import Form from "./pages/HireForm/HireForm.tsx";
 import { Nav } from "./components/nav.tsx";
 
 const root = createRoot(document.getElementById("root")!);
