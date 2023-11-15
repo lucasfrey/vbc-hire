@@ -118,7 +118,7 @@ function HireForm() {
             </Form.Message>
           </div>
           <Form.Control asChild>
-            <textarea className="Textarea" required />
+            <textarea rows={8} className="Textarea" required />
           </Form.Control>
         </Form.Field>
         <Form.Submit asChild>
