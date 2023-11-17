@@ -2,7 +2,7 @@ import { createRoot } from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./index.css";
 import Home from "./pages/Home/Home.tsx";
-import Details from "./pages/Details.tsx";
+import Details from "./pages/Details/Details.tsx";
 import Form from "./pages/HireForm/HireForm.tsx";
 import { Nav } from "./components/nav.tsx";
 import Hire from "./pages/Hire/Hire.tsx";
