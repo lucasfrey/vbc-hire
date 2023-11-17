@@ -1,10 +1,11 @@
 import { createRoot } from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./index.css";
-import Home from "./pages/Home.tsx";
+import Home from "./pages/Home/Home.tsx";
 import Details from "./pages/Details.tsx";
 import Form from "./pages/HireForm/HireForm.tsx";
 import { Nav } from "./components/nav.tsx";
+import Hire from "./pages/Hire/Hire.tsx";
 
 const root = createRoot(document.getElementById("root")!);
 
@@ -20,6 +21,7 @@ root.render(
     <main>
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/hire" element={<Hire />} />
         <Route path="/hire/:name" element={<Details />} />
         <Route path="/contact" element={<Form />} />
       </Routes>

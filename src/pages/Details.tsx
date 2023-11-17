@@ -8,6 +8,7 @@ function Details() {
     <>
       <p>Details for {name}</p>
       <h3>Hire {name}</h3>
+
       <HireForm />
     </>
   );
